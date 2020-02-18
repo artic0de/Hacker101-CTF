@@ -1,0 +1,9 @@
+This is the first flag I found. Here is what I did:
+
+1. Make two accounts (test/test & asdf/asdf are the ones I made)
+2. Log in to asdf, create a post with "For my own eyes only" checked on asdf, log out
+3. Log in to test, create a post, then edit that same post. There will be a url like this: `http://35.227.24.107/9daa3e22fd/index.php?page=edit.php&id=4`
+4. Change the last number after `$id=` to different numbers (should be sequentially lower if followed directions exactly) until you get to asdf's private post
+5. Uncheck "Yes, this is my own eyes only!" and then slick "Save post"
+
+FLAG: ^FLAG^eaddee0cddc87b0a857fb4546d83871cd4d6d19bdbfa4a0f3fcc8b2e9242c8e7$FLAG$
