@@ -1,0 +1,7 @@
+Often times, users will use simple passwords. It's something that should be checked often.
+
+This is the second flag I found:
+
+1. Log in with username "user" with password "password"
+
+FLAG: ^FLAG^79d46f5dbaec83ef34eca4a01bbd899e147ce7d2dda49714ad0b9f2b16c83d62$FLAG$
