@@ -1,0 +1,8 @@
+Using dirbuster, I found a path to login.
+I tried admin/admin, but got the error "Invalid Username"
+I used OWASP ZAP's fuzzer to attempt to find the username
+Once it finished, I searched my results for "Invalid Password" and found one where the username was "lotti"
+Next, I set up a hydra brute force scan for lotti.
+
+Buuuuut before that could finish and I could log in to get the flag, my ISP auto-blocked me since they say what looked like a DOS.
+Currently in the process to resolve that...

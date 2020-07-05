@@ -1,0 +1,5 @@
+Looking at the Cart page, it looks like there's a form that submits the item AND the price!
+I checked out the POST method in OWASP-ZAP and sure enough, URL-encoded was the same data.
+I decoded it, changed the price to 0.00, encoded, and sent it as a new POST method, which yielded the flag!
+
+^FLAG^5bda42b3cd85269a0928a54fad7f5a64072f6bc3fa5dea1177f34f4a7564e380$FLAG$
